@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Seattle</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Header start-->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <h1 class="header_logo-title">TRAVEL SEATTLE</h1>
+                    <!-- <a href="/" class="header_logo-link">
+                        <img src="./img/svg/es-logo.svg" alt="Explore Seattle" class="header_logo-pic">
+                    </a> -->
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="#articles" class="header_link js-scroll">Articles</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#locations" class="header_link js-scroll">Locations</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#videos" class="header_link js-scroll">Videos</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#sign-in" class="header_link js-scroll">Sign in</a>
+                        </li>
+                    </ul>
+                    <div class="header_nav-close">
+                        <span class="header_nav-close-line"></span>
+                        <span class="header_nav-close-line"></span>
+                    </div>
+                </nav>
+                <div class="header_burger burger">
+                    <span class="burger_line burger_line-first"></span>
+                    <span class="burger_line burger_line-second"></span>
+                    <span class="burger_line burger_line-third"></span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--Header end-->
+    <main class="main">
+        <!--intro start-->
+
+        <div class="intro" id="sign-in">
+            <div class="wrapper">
+                <h1 class="intro_title">
+                    Discover Amazing places in Seattle, Washington
+                </h1>
+                <p class="intro_subtitle">
+                    Seattle is situated on an isthmus between Puget Sound (an inlet of the Pacific Ocean) and Lake Washington. It is the northernmost major city in the United States, located about 100 miles (160 km) south of the Canadian border.
+                </p>
+                <form class="search-form">
+                    <fieldset class="search-form_wrap">
+                        <p class="search-form_info">
+                            <input type="text" name="user-like-to-do" class="search-form_field" placeholder="What would you like to do?">
+                            <input type="text" name="user-like-to-go" class="search-form_field" placeholder="What would you like to do?">
+                            <button class="search-form_submit">search</button>
+                        </p>
+                    </fieldset>
+
+
+                </form>
+            </div>
+        </div>
+        <!--intro end-->
+
+        <!--benefits start-->
+        <section class="benefits">
+            <div class="benefits_wrap">
+                <h2 class="benefits_title">
+                    Benefits of TRAVEL SEATTLE
+                </h2>
+                <div class="benefits_cards">
+                    <div class="benefits_card">
+                        <div class="benefits_card-pic">
+                            <img src="./img/svg/church-icon.svg" alt="Welcome to Odigo!" class="benefits_card-thumb">
+                        </div>
+                        <h3 class="benefits_card_title">Welcome to TRAVEL SEATTLE!
+                        </h3>
+                        <p class="benefits_card-desc">Whether you are brand new or have been in the Seattle area for a while, please join us to explore the many wonderful things this city offers!
+                        </p>
+                        <a href="#!" class="benefits_card-more">
+                            LEARN MORE
+                        </a>
+                    </div>
+                    <div class="benefits_card">
+                        <div class="benefits_card-pic">
+                            <img src="./img/svg/person-icon.svg" alt="Your Personal Japan Guide" class="benefits_card-thumb">
+                        </div>
+                        <h3 class="benefits_card_title">Your Personal Seattle Guide
+                        </h3>
+                        <p class="benefits_card-desc">TRAVEL SEATTLE APP is a city discovery app that connects you with meaningful places, experiences, and people that match your vibe.
+                        </p>
+                        <a href="#!" class="benefits_card-more">
+                            LEARN MORE
+                        </a>
+                    </div>
+                    <div class="benefits_card">
+                        <!-- чтобы его выровнять добавить еще один класс <div class="benefits_card новый_класс" в новый_класс положить отступ>  -->
+                        <div class="benefits_card-pic">
+                            <img src="./img/svg/bulding-icon.svg" alt="Promoting Local Businesses" class="benefits_card-thumb">
+                        </div>
+                        <h3 class="benefits_card_title">Promoting Local Businesses
+                        </h3>
+                        <p class="benefits_card-desc">Our community has banded together to stay home and stay safe. Keep that community spirit going by showing your local businesses some love.
+                        </p>
+                        <a href="#!" class="benefits_card-more">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--benefits end-->
+
+        <!-- Places start -->
+        <section class="places">
+            <div class="wrapper-full">
+                <div class="places_caption">
+                    <h2 class="places_title section_title">
+                        Get inspired for your next trip
+                    </h2>
+                    <a href="#!" class="places_view-all">VIEW ALL</a>
+                </div>
+                <div class="places_cards">
+
+                    <div class="places_card places_card-size-lg">
+                        <img src="./img/place-1.jpg" alt="Olympia" class="places_card-pic places_card-pic-size-lg">
+                        <h3 class="places_card-title">
+                            Olympia
+                        </h3>
+                        <a href="!#" class="places_card-link"></a>
+                    </div>
+
+                    <div class="places_card places_card-size-lg">
+                        <img src="./img/place-2.jpg" alt="Tacoma" class="places_card-pic places_card-pic-size-lg">
+                        <h3 class="places_card-title">
+                            Tacoma
+                        </h3>
+                        <a href="!#" class="places_card-link"></a>
+                    </div>
+
+                    <div class="places_card places_card-size-sm">
+                        <img src="./img/place-3.jpg" alt="Bellevue" class="places_card-pic places_card-pic-size-sm">
+                        <h3 class="places_card-title">
+                            Bellevue
+                        </h3>
+                        <a href="!#" class="places_card-link"></a>
+                    </div>
+
+                    <div class="places_card places_card-size-sm">
+                        <img src="./img/place-4.jpg" alt="Spokane" class="places_card-pic places_card-pic-size-sm">
+                        <h3 class="places_card-title">
+                            Spokane
+                        </h3>
+                        <a href="!#" class="places_card-link"></a>
+                    </div>
+
+                    <div class="places_card places_card-size-sm">
+                        <img src="./img/place-5.jpg" alt="Bellingham" class="places_card-pic places_card-pic-size-sm">
+                        <h3 class="places_card-title">
+                            Bellingham
+                        </h3>
+                        <a href="!#" class="places_card-link"></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Plasec end -->
+
+        <!-- Tours start -->
+        <!-- Вместо section, т.к. нет заголовка -->
+        <div class="tours" id="articles">
+            <div class="wrapper-full">
+
+                <div class="tours_tour tour">
+                    <div class="tour_pic">
+                        <img src="./img/tour-1.jpg" alt="Prefecture in Focus: Tottori" class="tour_thumb">
+                    </div>
+                    <div class="tour_info">
+                        <h3 class="tour_title">
+                            Focus on District of Columbia.
+                        </h3>
+                        <p class="tour_desc">
+                            Congress passed the Residence Act as part of the Compromise of 1790 brokered among James Madison, Thomas Jefferson, and Alexander Hamilton.
+                        </p>
+                        <a href="!#" class="tour_more">
+                            LAREN MORE
+                        </a>
+                    </div>
+                </div>
+                <div class="tours_tour tour">
+
+                    <div class="tour_info">
+                        <h3 class="tour_title">
+                            Featured Neighborhood: Queen Anne Hill.
+                        </h3>
+                        <p class="tour_desc">
+                            The affluent neighborhood sits on the eponymous hill, whose maximum elevation is 456 feet (139 m), making it Seattle's highest named hill.
+                        </p>
+                        <a href="!#" class="tour_more">
+                            LAREN MORE
+                        </a>
+                    </div>
+                    <div class="tour_pic tour_pic-mobile-first">
+                        <img src="./img/tour-2.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama" class="tour_thumb">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Tours end -->
+        <!-- Top start -->
+        <section class="top" id="locations">
+            <div class="wrapper-full">
+                <h2 class="top_title section_title">
+                    Top places to visit
+                </h2>
+                <div class="top_cards">
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-1.jpg" alt="Frisson: The Richard E. Lang and Jane Lang Davis Collection" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            Frisson: The Richard E. Lang and Jane Lang Davis Collection
+                        </h3>
+                        <p class="top_card-desc">
+                            Through November 27, 2022 The Lang Collection, a recent gift to SAM from the Friday Foundation, is one of the most significant holdings of Abstract Expressionist paintings and sculpture.
+                        </p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-2.jpg" alt="George Balanchine's The Nutcracker" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            George Balanchine's The Nutcracker
+                        </h3>
+                        <p class="top_card-desc">
+                            Through December 28 With its classic score, thrilling dance, resplendent costumes and scenery, and magical story, PNB's production is the perfect centerpiece for any holiday celebration.</p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-3.jpg" alt="HOCKEY: Faster Than Ever" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            HOCKEY: Faster Than Ever
+                        </h3>
+                        <p class="top_card-desc">
+                            Through February 27 The world premiere of HOCKEY: Faster Than Ever, a highly-interactive exhibition focusing on the science, history, and culture of hockey opens at PacSci this fall.
+                        </p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-4.jpg" alt="48 Hours in Seattle for Refract:" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            48 Hours in Seattle for Refract:
+                        </h3>
+                        <p class="top_card-desc">
+                            The Seattle Glass Experience From a mesmerizing glass art festival to jaw-dropping city views to a welcoming hotel in the heart of downtown, join Nanette as she shares colorful highlights from her 48-hour trip to Seattle.
+                        </p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-5.jpg" alt="Museum Shops offer Unique Gifts for Your Holiday" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            Museum Shops offer Unique Gifts for Your Holiday
+                        </h3>
+                        <p class="top_card-desc">
+                            Holiday gift buying is much more fun when you can find something unique and perfectly appropriate for the recipient—and support a great local cultural organization or nonprofit in the process.
+                        </p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                    <div class="top_card">
+                        <div class="top_card-pic">
+                            <img src="./img/top-pic-6.jpg" alt="Why You Don't Want to Miss Out on Refract:" class="top_card-thumb">
+                            <div class="top_card-stats">
+
+                                <div class="top_card-likes">
+                                    <span class="top_card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top_card-comments">
+                                    <span class="top_card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="top_card-title">
+                            Why You Don't Want to Miss Out on Refract:
+                        </h3>
+                        <p class="top_card-desc">
+                            The Seattle Glass Experience Live demonstrations, open studio tours, museum and gallery exhibitions, art auctions and more—join us for our annual celebration of glass art.
+                        </p>
+                        <a href="#!" class="top_card-more">
+                            SEE MORE
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Top end -->
+        <!-- Videos start -->
+        <div class="videos" id="videos">
+            <div class="videos_wrapper">
+
+                <div class="video_item">
+                    <iframe class="video_element" src="https://www.youtube.com/embed/eiSVtdvVp40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Videos end -->
+    </main>
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_item">
+
+                <div class="footer_logo">
+
+                    <h2 class="footer_logo-title">TRAVEL SEATTLE</h2>
+
+                    <!-- <img src="./img/svg/odigo-logo-footer.svg" alt="Discover Amazing places in Japan" class="footer_logo-pic"> -->
+                </div>
+                <nav class="footer_nav">
+                    <ul class="footer_menu">
+                        <li class="footer_menu-item">
+                            <h3 class="footer_menu-title">Company</h3>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">About </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Team </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Careers </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Privacy Policy </a>
+                        </li>
+                    </ul>
+                    <ul class="footer_menu">
+                        <li class="footer_menu-item">
+                            <h3 class="footer_menu-title">Locations</h3>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Spokane </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Bellevue </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Tacoma </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Olympia </a>
+                        </li>
+                    </ul>
+                    <ul class="footer_menu">
+                        <li class="footer_menu-item">
+                            <h3 class="footer_menu-title">Social Media</h3>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Facebook </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Twitter </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Instagram </a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a href="#!" class="footer_menu-link">Youtube </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <script src="./js/main-es5.min.js"></script>
+</body>
+
+</html>
